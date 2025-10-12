@@ -28,7 +28,6 @@ FROM sales.retail.bright_coffee;
 -- What time does the shop close
 SELECT MAX(transaction_time) closing_time
 FROM sales.retail.bright_coffee</br>
-
 <b>Populate time bucket of revenues across all store locations</b>
 <br> SELECT product_category,
        SUM(transaction_qty*unit_price) AS revenue,
@@ -49,4 +48,7 @@ GROUP BY product_category,
          time_bucket,
          transaction_time
 ORDER BY revenue DESC;</br>
+<b> I built insights dashboars on excel </b>
+<a href="https://github.com/Lindoh95/Retail-sales/blob/main/RETAIL1.PNG"/>
+
 
