@@ -29,7 +29,7 @@ FROM sales.retail.bright_coffee;
 SELECT MAX(transaction_time) closing_time
 FROM sales.retail.bright_coffee</br>
 
-Populate time bucket of revenues across all store locations
+<b>Populate time bucket of revenues across all store locations</b>
 <br> SELECT product_category,
        SUM(transaction_qty*unit_price) AS revenue,
        store_location,
