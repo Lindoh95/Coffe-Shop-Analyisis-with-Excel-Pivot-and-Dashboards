@@ -48,7 +48,7 @@ GROUP BY product_category,
          time_bucket,
          transaction_time
 ORDER BY revenue DESC;</br>
-<b> I built insights dashboars on excel </b>
+<b> I built insights dashboars on excel </b><br>
 <a href="https://github.com/Lindoh95/Retail-sales/blob/main/RETAIL1.PNG"> SCREEN 1</a><br>
 <a href="https://github.com/Lindoh95/Retail-sales/blob/main/RETAIL2.PNG">SCREEN 2</a>
 
