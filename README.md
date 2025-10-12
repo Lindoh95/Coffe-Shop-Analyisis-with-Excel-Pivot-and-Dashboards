@@ -50,5 +50,6 @@ GROUP BY product_category,
 ORDER BY revenue DESC;</br>
 <b> I built insights dashboars on excel </b>
 <a href="https://github.com/Lindoh95/Retail-sales/blob/main/RETAIL1.PNG"/>
+<a href="https://github.com/Lindoh95/Retail-sales/blob/main/RETAIL2.PNG"/>
 
 
