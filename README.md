@@ -16,15 +16,15 @@ FROM sales.retail.bright_coffee</br>
 FROM sales.retail.bright_coffee;
 </br>
 
-<br>  calculate the revenue by store location 
+<br>  calculate the revenue by store location</BR> 
 SELECT store_location,
        SUM(transaction_qty*unit_price) AS revenue
 FROM sales.retail.bright_coffee
 GROUP BY store_location;
-</br>
+
 
 <br>
-What time does the shop opens
+What time does the shop opens</BR>
 SELECT MIN(transaction_time) openig_time
 FROM sales.retail.bright_coffee;
 
