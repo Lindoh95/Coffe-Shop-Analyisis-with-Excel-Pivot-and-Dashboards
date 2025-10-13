@@ -1,5 +1,6 @@
 # Retail-sales
-Retail Analysis. Comparing Revenues over months, Time bucket and most selling product.
+Retail Analysis.
+</BR>Comparing Revenues over months, Time bucket and most selling product.
 
 <br>I used snowfakles to  store and process my data. </br>
 <br>i used snowfleakes to store my data in my create database,schema and tables.</br>
@@ -14,12 +15,14 @@ FROM sales.retail.bright_coffee</br>
 <br> SELECT COUNT(DISTINCT store_id) AS number_of_shops
 FROM sales.retail.bright_coffee;
 </br>
+
 <br>  calculate the revenue by store location 
 SELECT store_location,
        SUM(transaction_qty*unit_price) AS revenue
 FROM sales.retail.bright_coffee
 GROUP BY store_location;
 </br>
+
 <br>
 What time does the shop opens
 SELECT MIN(transaction_time) openig_time
