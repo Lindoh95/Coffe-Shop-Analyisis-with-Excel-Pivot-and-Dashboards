@@ -56,4 +56,17 @@ ORDER BY revenue DESC;</br>
 <a href="https://github.com/Lindoh95/Retail-sales/blob/main/RETAIL2.PNG">SCREEN 2</a>
 <br> <a href="https://github.com/Lindoh95/Coffe-Shop-Analyisis-with-Excel-Pivot-and-Dashboards/blob/main/Practical1RetailLindokuhleNkambule.pdf"> Snowflakes</a>
 
+Location Revenue Distribution
+3 store locations contributed nearly equally to total revenue
+🕒 Time-of-Day Sales Pattern
+Sales volume by time of day (highest to lowest):
+Morning
+Afternoon
+Evening
+Night
+☕ Product Contribution
+Coffee & Tea products account for 67% of total revenue.
+Other items (e.g., pastries, snacks) make up the remaining 33%.
+
+
 
